@@ -5,12 +5,17 @@ ReseqQC requires five compulsory inputs: the sequence of reference genome (in fa
 
 
 There are five options:
+
 --pi   input pi file
+
 --fa   input fasta file
+
 --gtf  input gtf file
+
 --vcf  input vcf file
+
 --w    input 'QC' , 'QCFA' or 'QCFA-e'
-'QC' , 'QCFA' or 'QCFA-e'
+
 
 
 QC, QCFA, and QCFA-E correspond to three distinct operational modes. Specifically, QC denotes data quality assessment, while QCFA and QCFA-E are designated for VCF files with VQSR features and those without VQSR features, respectively.
